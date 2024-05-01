@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import CGU_Login from './cgu_login'
+import cgu_login from './cgu_login';
 
 function App() {
-  return (
+    return (
     <div className="App">
-      <div>
-        { CGU_Login() }
-      </div>
+        <div>
+            {cgu_login()}
+        </div>
     </div>
-  );
+    );
 }
 
 export default App;
