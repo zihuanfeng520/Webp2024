@@ -30,7 +30,7 @@ function Copyright(props) {
 
 const defaultTheme = createTheme();
 
-export default function CGU_login() {
+export default function cgu_login() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -50,7 +50,7 @@ export default function CGU_login() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
+            backgroundImage: 'url(https://obs.line-scdn.net/0haTI-X-8JPnt0VCutK6JBLEwCMgpHMiRyVmUjGgFTYBhZeHEsHGdtGAYBN1cKZnwqVDsjGwRXN0xYMX8vSA/w644)',
             backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
               t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
